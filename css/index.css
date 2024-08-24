@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100%;
+}
+
+.center{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header{
+    min-width: 1200px;
+    width: 100%;
+    height: 65px;
+    background-color: #212343;
+    
+}
+
+.header img{
+    margin: 15px
+}
+
+.container-banner{
+    width: 100%;
+    height: 557px;
+    background-image: url("../imagens/header_bg.png");
+    background-size: cover;
+    background-position: center;
+    min-width: 1200px;
+}
+
+.container-banner .center{
+    height: 100%;
+}
+
+.form{
+    width: 400px;
+    height: calc(100% + 30px);
+    background-color: white;
+    float: right;
+    position: relative;
+    top: -15px;
+    padding: 10px;
+    background-clip: padding-box; /*validou a transparencia da borda do background*/ 
+    /*para imagens usamos o background-origin:*/
+    border: 8px solid rgba(120, 120, 120, 0.7);
+
+}
+
+.form h2{
+    font-weight: normal;
+    font-size: 21px;
+    color: #999999;
+    
+}
+.imput-container{
+    margin-top: 20px;
+
+}
+
+.input-container span, .input-container p{
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    color: #bbb;
+
+}
+
+.input-container input[type=text]{
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+}
+
+.input-container p {
+    margin: 20px 0;
+}
+
+.input-container input[type="submit"]{
+    background-color: #212343;
+    color: white;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.input-submit-container{
+    text-align: center;
+    border: 0;
+}
+.input-container input[type="submit"]:hover{
+    background-color: #2e315c;
+}
+
+.container-list{
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color:rgba(33, 35 ,67, 0.7);
+    margin-top: 80px;
+    padding: 18px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+    color: white;
+    font-size: 15px;
+}
+
+.container-list ul li{
+    margin-top: 13px;
+}
+
+.container2{
+    padding: 70px 0;
+    background-color: #dddddd;
+    text-align: center;
+
+}
+
+.containter2 center h2{
+    font-weight: normal;
+
+}
+
+.container2 p{
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.arrow{
+    position: relative;
+    top: 90px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../imagens/arrow.png");
+    background-size: 100% 100%;
+
+}
+
+.section1{
+    padding: 90px 0;
+    width: 100%;
+    height: 600px;
+
+}
+
+.section1 h2{
+    text-align: center;
+    font-weight: normal;
+    color: #462663;
+}
+
+.container-section{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+}
+
+.container-single p{
+    text-align: justify;
+    padding: 10px 30px
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    border-top: 3px solid #ccc;
+}
+
+.direitos{
+    padding: 50px;
+    
+}
